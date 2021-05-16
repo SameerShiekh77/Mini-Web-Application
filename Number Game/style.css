@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#game {
+    background-color: rebeccapurple;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#number {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: dodgerblue;
+}
+
+.player1,
+.player2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.playersContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player,
+#computer {
+    color: cyan;
+    font-size: 30px;
+}
+
+.btn {
+    font-size: 25px;
+    background-color: purple;
+    color: whitesmoke;
+    font-family: cursive;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: black;
+}
+
+#playerNumber,
+#compNumber {
+    color: white;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#score {
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
